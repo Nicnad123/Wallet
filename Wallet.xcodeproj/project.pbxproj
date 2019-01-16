@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8833055721C48F430085795E /* TransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833055621C48F430085795E /* TransactionHistory.swift */; };
+		8833055921C882D30085795E /* TransactionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833055821C882D30085795E /* TransactionCollectionView.swift */; };
+		8833055B21E6C25C0085795E /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833055A21E6C25C0085795E /* Transaction.swift */; };
 		888F630E219F9B1D0024CD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888F630D219F9B1D0024CD68 /* AppDelegate.swift */; };
-		888F6310219F9B1D0024CD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888F630F219F9B1D0024CD68 /* ViewController.swift */; };
-		888F6313219F9B1D0024CD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888F6311219F9B1D0024CD68 /* Main.storyboard */; };
+		888F6310219F9B1D0024CD68 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888F630F219F9B1D0024CD68 /* WalletViewController.swift */; };
 		888F6315219F9B200024CD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888F6314219F9B200024CD68 /* Assets.xcassets */; };
 		888F6318219F9B200024CD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888F6316219F9B200024CD68 /* LaunchScreen.storyboard */; };
+		888F632021A636580024CD68 /* BalanceBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888F631F21A636580024CD68 /* BalanceBox.swift */; };
+		888F632221B216B80024CD68 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888F632121B216B80024CD68 /* ActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8833055621C48F430085795E /* TransactionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistory.swift; sourceTree = "<group>"; };
+		8833055821C882D30085795E /* TransactionCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCollectionView.swift; sourceTree = "<group>"; };
+		8833055A21E6C25C0085795E /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		888F630A219F9B1D0024CD68 /* Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888F630D219F9B1D0024CD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		888F630F219F9B1D0024CD68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		888F6312219F9B1D0024CD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		888F630F219F9B1D0024CD68 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 		888F6314219F9B200024CD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		888F6317219F9B200024CD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		888F6319219F9B200024CD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888F631F21A636580024CD68 /* BalanceBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBox.swift; sourceTree = "<group>"; };
+		888F632121B216B80024CD68 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				888F630D219F9B1D0024CD68 /* AppDelegate.swift */,
-				888F630F219F9B1D0024CD68 /* ViewController.swift */,
-				888F6311219F9B1D0024CD68 /* Main.storyboard */,
+				888F630F219F9B1D0024CD68 /* WalletViewController.swift */,
 				888F6314219F9B200024CD68 /* Assets.xcassets */,
 				888F6316219F9B200024CD68 /* LaunchScreen.storyboard */,
 				888F6319219F9B200024CD68 /* Info.plist */,
+				888F631F21A636580024CD68 /* BalanceBox.swift */,
+				888F632121B216B80024CD68 /* ActionButton.swift */,
+				8833055621C48F430085795E /* TransactionHistory.swift */,
+				8833055821C882D30085795E /* TransactionCollectionView.swift */,
+				8833055A21E6C25C0085795E /* Transaction.swift */,
 			);
 			path = Wallet;
 			sourceTree = "<group>";
@@ -124,7 +136,6 @@
 			files = (
 				888F6318219F9B200024CD68 /* LaunchScreen.storyboard in Resources */,
 				888F6315219F9B200024CD68 /* Assets.xcassets in Resources */,
-				888F6313219F9B1D0024CD68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +146,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888F6310219F9B1D0024CD68 /* ViewController.swift in Sources */,
+				8833055B21E6C25C0085795E /* Transaction.swift in Sources */,
+				888F632021A636580024CD68 /* BalanceBox.swift in Sources */,
+				8833055721C48F430085795E /* TransactionHistory.swift in Sources */,
+				888F6310219F9B1D0024CD68 /* WalletViewController.swift in Sources */,
+				8833055921C882D30085795E /* TransactionCollectionView.swift in Sources */,
 				888F630E219F9B1D0024CD68 /* AppDelegate.swift in Sources */,
+				888F632221B216B80024CD68 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		888F6311219F9B1D0024CD68 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				888F6312219F9B1D0024CD68 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		888F6316219F9B200024CD68 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQRA575M4Y;
 				INFOPLIST_FILE = Wallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQRA575M4Y;
 				INFOPLIST_FILE = Wallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
